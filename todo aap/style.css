@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   background-image: url(https://static3.bigstockphoto.com/8/1/1/large1500/118121435.jpg);
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.todo-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.todo-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.todo-input button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.todo-input button:hover {
+    background-color: #218838;
+}
+
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#todo-list li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#todo-list li.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+#todo-list li button {
+    border: none;
+    background: none;
+    color: #dc3545;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#todo-list li button:hover {
+    color: #c82333;
+}
